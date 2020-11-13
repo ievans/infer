@@ -20,7 +20,7 @@ ifneq ($(UTOP),no)
 # TODO: turn this back on
 #BUILD_SYSTEMS_TESTS += infertop
 #build_infertop_print build_infertop_test: test_build
-endif
+endifddd
 
 ifeq ($(BUILD_C_ANALYZERS),yes)
 BUILD_SYSTEMS_TESTS += \
