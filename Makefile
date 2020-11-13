@@ -14,7 +14,7 @@ include $(ROOT_DIR)/Makefile.config
 # override this for faster builds (but slower infer)
 BUILD_MODE ?= opt
 
-MAKE_SOURCE = $(MAKE) -C $(SRC_DIR) INFER_BUILD_DIR=_build/$(BUILD_MODE)
+MAKE_SOURE = $(MAKE) -C $(SRC_DIR) INFER_BUILD_DIR=_build/$(BUILD_MODE)
 
 ifneq ($(UTOP),no)
 # TODO: turn this back on
